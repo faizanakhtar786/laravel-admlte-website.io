@@ -1,0 +1,24 @@
+Empty migration:-
+
+	php artisan make:migration create_abc_table
+
+table ko decide :-
+
+	php artisan make:migration create_abc1_table --create="pappu"
+
+
+How to run migration
+	
+	php artisan migrate
+
+How to get status 
+
+	php artisan migrate:status
+
+how to rollback 
+	
+	php artisan migrate:rollback
+
+how to refresh
+	
+	php artisan migrat:refresh

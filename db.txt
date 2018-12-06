@@ -1,0 +1,93 @@
+4.) database
+
+	:- driver
+
+	MySQL
+	Postgres
+	Sqlite3
+	SQL Server
+
+Conifig:- 
+	.env
+
+
+
+Table:-
+	1.) Mannually
+	2.) Migration :- Schema , blueprint
+
+
+	How to create a migration
+	:-
+
+		php artisan make:migration create-happy-table 
+
+		php artisan make:migration create_sad_table --create=sads 
+
+
+		:- one table 
+			id :- bigint/int auto_increment pk
+
+			created_at :- timestamp 
+			updated_at :- timestamp
+
+
+		after setup schema in migration file
+
+		how to run the migration file
+
+			php artisan migrate
+
+		how to rollback 
+			php artisan migrate:rollback
+
+			:- latest migration ko delete kar deta h database se 
+
+		how to refresh the migration
+
+			:- all the migration is rollback and again run migrate
+
+			php artisan migrate:refresh
+
+		how to check status migration file
+
+			php artisan migrate:status
+
+
+
+Data:-
+	2 ways
+
+	1.) Eloquent ORM:- rules
+
+		Model name is :- singular  (Blog)
+		Table name is :- plural		(blogs)
+			:-
+				id :- int/bigint , auto_increment - PK
+				created_at timstamp - null
+				updated_at timestamp - null
+
+
+			
+	How to create model
+
+		php artisan make:model Boy
+
+	How to creae Model and a/c migration
+
+		php artisan make:model Girl -m
+
+	how to create Model , Migration , Controller
+
+		php artisan make:model Person -mc
+
+		
+	how to create Model , Migration , Controller and CRUD function in controller
+
+		php artisan make:model Pappu -mcr
+
+
+
+
+	2.) Fluent :- no any rules 
+

@@ -1,0 +1,28 @@
+Gallery page mai jo image show hoga uska size:- 620 * 400 hoga 
+
+Index page mai ek image chahiye jo :- 620 * 400 hoga 1 pc.
+
+About page mai ek image chahiye jo :- 620 * 400 hoga 1 pc.
+
+Service page mai ek image chahiye jo :- 620 * 400 hoga 1 pc.
+
+Team member ki image :- 300 * 350 hoga 4 pc.
+
+Testimonial ke lye :- 100 * 100 hoga
+
+Slider ke lye image :- 1600 * 800 ka image hoga 3 pc. 
+
+
+Ye hua image details
+
+Now some information regarding :- this websites
+
+	1.) Mobile no
+	2.) Address (Location)
+	3.) Email 
+	4.) About us data
+	5.) Home page data
+	6.) Some images for Achal garden
+	7.) All the services list and descriptions
+	8.) Gallery Data :- including images 
+	
